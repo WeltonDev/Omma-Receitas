@@ -1,0 +1,67 @@
+.banner {
+  margin: 0;
+  background-image: url("../images/banner.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 405px;
+  padding: 30px;
+}
+
+.banner h1 {
+  margin: 70px 200px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.banner-lateral {
+  background-image: url("../images/banner-lateral.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 800px;
+  border-radius: 20px;
+}
+main {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  margin: 100px auto;
+  gap: 20px;
+}
+.container-contato {
+  padding: 60px 30px;
+  width: 60%;
+  border: 1px solid #ffc107;
+}
+
+.container-contato h1 {
+  margin: 100px auto;
+  color: #ffc107;
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.container-contato form {
+  display: flex;
+  flex-direction: column;
+}
+.container-contato form input,
+textarea {
+  border: 1px solid #ffc107;
+  border-radius: 7px;
+  padding: 16px;
+}
+
+button {
+  width: 160px;
+  height: 40px;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  font-weight: 800;
+  background-color: #ffc107;
+  margin-top: 16px;
+}

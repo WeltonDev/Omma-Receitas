@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+.banner-superior {
+  width: 90vw;
+  background-image: url("../images/banner-superior.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 405px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 160px 60px;
+  margin: 0;
+}
+.banner-superior h1 {
+  font-family: "Montserrat";
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+
+.container-receitas {
+  display: flex;
+  gap: 80px;
+  margin: 0;
+}
+
+main h1 {
+  font-size: 50px;
+  color: #ffa000;
+  font-weight: bold;
+}
+
+.banner-inferior {
+  width: 90vw;
+  background-image: url("../images/banner-inferior.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 100px 130px;
+  margin: 0;
+}
+.banner-inferior h1 {
+  color: #fff;
+  font-size: 50px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  margin: 50px 60px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.banner-inferior p {
+  width: 30%;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 24px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin: 50px 60px;
+}
+
+@media only screen and (max-width: 400px) {
+  .banner-superior {
+    width: 100%;
+    height: 120px;
+    background-image: url("../images/banner-superior.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .banner-superior h1 {
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+    padding: 12px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  main h1 {
+    font-size: 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+  }
+
+  .container-receitas {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0;
+  }
+
+  .banner-inferior {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .banner-inferior h1 {
+    color: #fff;
+    font-size: 25px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin: 50px 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 10px;
+  }
+
+  .banner-inferior p {
+    width: 75%;
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 16px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 50px 60px;
+    margin: 10px;
+  }
+}
